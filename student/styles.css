@@ -1,0 +1,173 @@
+
+body {
+
+font-family: Arial, sans-serif;
+margin-left : 20%;
+padding:0px;
+display: flex;
+
+align-items: center;
+min-height: 100vh;
+background: linear-gradient(to right, #f27121, #e94057);
+}
+
+.container {
+margin-top:40px;
+background-color: rgba(255, 255, 255, 0.8);
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+padding: 40px;
+width: 400px;
+}
+
+h2 {
+text-align: center;
+margin-bottom: 30px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+label {
+font-weight: bold;
+}
+
+input {
+padding: 12px 15px;
+border: 1px solid #ccc;
+border-radius: 5px;
+outline: none;
+transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+border-color: #4CAF50;
+}
+
+button {
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+background-color: #45a049;
+}
+
+.error-message {
+color: red;
+text-align: center;
+margin-bottom: 15px;
+}
+@media only screen and (max-width: 768px) { /* Adjust breakpoint as needed */
+#container {
+ margin-top: 20px; /* Adjust margin as needed */
+}
+}
+header {
+
+padding: 20px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+header h1 {
+font-family: 'Montserrat', sans-serif; /* Replace with your preferred font */
+font-size: 3rem;
+color: #333;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+from {
+ opacity: 0;
+ transform: translateY(20px);
+}
+to {
+ opacity: 1;
+ transform: translateY(0); 
+
+}
+}
+.notification{
+    margin-left: 20%;
+    gap:40px;
+    float: right;
+    flex : 2;
+}
+
+.notification-icon {
+    position: relative;
+    display: inline-block;
+    /* Add other styling as needed, e.g., color, size, padding */
+  }
+  
+  .notification-icon img {
+    width: 24px; /* Adjust the width as needed */
+    height: 24px; /* Adjust the height as needed */
+  }
+  
+  .notification-count {
+    position: absolute;
+    top: -5px; /* Adjust the top position as needed */
+    right: -5px; /* Adjust the right position as needed */
+    background-color: red; /* Change the background color as desired */
+    color: white;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .noticontainer {
+    margin-top:40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 200px;
+    }
+    table {
+      border-collapse: collapse; /* Ensures borders don't overlap */
+      width: 100%; /* Makes the table full width */
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left; /* Aligns content to the left */
+    }
+
+    th {
+      background-color: #f0f0f0; /* Light gray background for headers */
+      font-weight: bold; /* Makes headers stand out */
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .home-button-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .home-button {
+        background-color: #f0f0f0;
+        color: #333;
+        border: 1px solid #ccc;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+    }
